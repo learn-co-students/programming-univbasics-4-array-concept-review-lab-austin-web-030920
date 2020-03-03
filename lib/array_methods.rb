@@ -5,10 +5,11 @@ end
 def find_max_value(array)
   sorted = array.sort
   sorted.pop #=> first item is maximum
+  #array.sort.pop
 end
 
 def find_min_value(array)
   sorted = array.sort
   sorted.shift #=> first item is minimum
-  array.sort.shift
+  #array.sort.shift
 end
