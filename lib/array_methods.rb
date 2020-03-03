@@ -10,4 +10,5 @@ end
 def find_min_value(array)
   sorted = array.sort
   sorted.shift #=> first item is minimum
+  array.sort.shift
 end
